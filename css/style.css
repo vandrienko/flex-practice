@@ -89,16 +89,27 @@ img {
     margin: 0;
 }
 .what {
+    padding: 50px 0;
 }
 .whar__row {
+    display: flex;
 }
 .what__image {
+    flex-shrink: 0;
+    max-width: 430px;
 }
+
+/* .what__image img {
+    width: 430px;
+} */
+
 .what__body {
 }
 .what__title {
 }
 .title {
+    color: #445161;
+    font-size: 30px;
 }
 .what__text {
 }
