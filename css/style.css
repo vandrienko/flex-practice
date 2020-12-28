@@ -1,0 +1,152 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wraper {
+    min-height: 100%;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.hi {
+    background-color: #445162;
+    color: #ffffff;
+    padding: 50px 0px 50px 0px;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0px auto;
+}
+
+.hi__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hi__body {
+    flex-shrink: 0;
+    padding-right: 20px;
+    max-width: 50%;
+}
+
+.hi__title {
+    margin-bottom: 40px;
+
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.hi__list {
+    list-style: none;
+}
+
+.hi__list li {
+    margin-bottom: 15px;
+    padding-left: 35px;
+
+    background-image: url("/img/icons/check\ icon.png");
+    background-repeat: no-repeat;
+    background-position-x: 2px;
+    background-position-y: 0;
+
+    font-size: 20px;
+}
+
+.hi__list li:last-child {
+    margin: 0;
+}
+.what {
+}
+.whar__row {
+}
+.what__image {
+}
+.what__body {
+}
+.what__title {
+}
+.title {
+}
+.what__text {
+}
+.columns {
+}
+.columns__title {
+}
+.columns__row {
+}
+.columns__column {
+}
+.columns__item {
+}
+.item {
+}
+.item__row {
+}
+.item__image {
+}
+.item__body {
+}
+.item__title {
+}
+.item__text {
+}
+.vertical {
+}
+.vertical__title {
+}
+.vertical__body {
+}
+.vertical__row {
+}
+.vertical__column {
+}
+.vertical__item {
+}
+.vertical__subtitle {
+}
+.vertical__label {
+}
+.vertical__text {
+}
+.vertical__btn {
+}
+.footer {
+}
+.footer__row {
+}
+.footer__text {
+}
