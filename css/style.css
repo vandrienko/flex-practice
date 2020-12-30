@@ -135,6 +135,7 @@ img {
 
 .columns__title {
   margin-bottom: 35px;
+
   text-align: center;
 }
 
@@ -163,6 +164,7 @@ img {
 
 .item__title {
   margin-bottom: 5px;
+
   color: #445161;
 
   font-size: 24px;
@@ -171,6 +173,7 @@ img {
 
 .item__text {
   padding-right: 10px;
+
   font-size: 16px;
   line-height: 24px;
 }
@@ -192,6 +195,7 @@ img {
 .vertical__row {
   display: flex;
   flex-wrap: wrap;
+
 	margin: 0px -22.5px;
 }
 
@@ -199,6 +203,7 @@ img {
   display: flex;
   flex-grow: 0;
   flex-shrink: 0;
+
   max-width: 300px;
   margin-bottom: 30px;
 	padding: 0px 22.5px;
@@ -225,6 +230,7 @@ img {
 
 .vertical__label {
   padding: 22px 0;
+
 	text-align: center;
 	background-color: #ffffff;
 	color: #445162;
@@ -239,6 +245,7 @@ img {
 	font-size: 16px;
 	line-height: 24px;
 }
+
 .vertical__text p {
   margin: 0;
 	margin-bottom: 10px;
@@ -260,9 +267,15 @@ img {
 	font-size: 18px;
 }
 
-.footer {
-}
 .footer__row {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
 }
+
 .footer__text {
+  font-size: 12px;
+  line-height: 24px;
+  color: #445162;
+
 }
